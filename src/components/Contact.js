@@ -21,7 +21,7 @@ export const Contact = () => {
                   <div className="social-links"> 
                         <a href="https://www.linkedin.com/in/dinesh-babu-n-g-2bb529268/">LinkedIn</a> |
                         <a href="https://github.com/Dineshbabu1022001">GitHub</a> ||
-                        <a href="https://drive.google.com/file/d/1KJF9H_GsMdchtsCB95lKP4IzStnd5kdm/view?usp=drivesdk">Resume</a>
+                        <a href="https://drive.google.com/file/d/1cvTL2doMyJBFRa_wUeL7YHnNnZD3zvyj/view?usp=drivesdk">Resume</a>
                  </div> 
             </div>
             <div className="column">
