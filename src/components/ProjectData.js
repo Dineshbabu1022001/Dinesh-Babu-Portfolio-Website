@@ -6,6 +6,7 @@ const ProjectData=[
         Year:"2023",
         SoftUsed1:"Mern Stack",
         ProjDespriction:"Built an Amazon clone with the MERN stack, Redux for state management, and Bootstrap for responsive design.",
+        SoftUsed2:"VS Code IDE",
         link:"https://github.com/Dineshbabu1022001/mini-ecommerce",
     },
     {   
