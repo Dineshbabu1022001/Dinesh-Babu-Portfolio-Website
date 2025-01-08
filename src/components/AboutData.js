@@ -3,7 +3,7 @@ const aboutData= [
         year:'2022-2024',
         dept:'Master of Computer Applications',
         school:'Psna college of Engineering and Technology - Dindigul',
-        Scored:'CGPA: 8.1%'
+        Scored:'CGPA: 8.2%'
         
     },
     {
