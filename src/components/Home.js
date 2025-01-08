@@ -85,19 +85,19 @@ export const Home = () => {
         <button 
           onClick={()=>{Click("https://github.com/Dineshbabu1022001");}}
           >
-          <i className="fa-brands fa-github" style={{ color: "#74C0FC" }}></i>
+          <i className="fa-brands fa-github" style={{ color: "#74C0FC",cursor: "pointer" }}></i>
         </button>
         <button   onClick={()=>{Click("https://www.linkedin.com/in/dinesh-babu-n-g-2bb529268/");}}
         >
           <i
             className="fa-brands fa-linkedin-in"
-            style={{ color: "#74C0FC" }}
+            style={{ color: "#74C0FC", cursor: "pointer" }}
           ></i>
         </button>
         <button id="emailButton">
           <i
             className="fa-regular fa-envelope"
-            style={{ color: "#74C0FC" }}
+            style={{ color: "#74C0FC", cursor: "pointer" }}
           ></i>
         </button>
         
