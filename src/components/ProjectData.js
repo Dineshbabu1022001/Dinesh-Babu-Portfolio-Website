@@ -26,7 +26,7 @@ const ProjectData=[
         SoftUsed1:"React",
         ProjDespriction:"I'm excited to share my personal portfolio, crafted with care using ReactJS. This site showcases my journey, skills, and projects, providing a smooth and interactive experience with modern web technologies",
         SoftUsed2:"Vercel",
-        link:"https://github.com/Dinesh Babu N GRavichandran/Portfolio-ReactJS",
+        link:"https://github.com/Dineshbabu1022001/Dinesh-Babu-Portfolio-Website",
     },
     {
         count:"0",
