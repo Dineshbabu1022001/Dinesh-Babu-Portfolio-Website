@@ -38,7 +38,7 @@ const ProjectData=[
         ProjDespriction:"Developed a Python-based voice-controlled Wikipedia search app with speech recognition, text-to speech, and a Tkinter GUI. Implemented multithreading for simultaneous search and audio playback,along with real-time status updates. Integrated error handling for a seamless user experience.",
         SoftUsed2:"Python and ML",
         link:"https://github.com/Dineshbabu1022001/Speech_Recognition-Using-Python",
-    }
+    },
      {
         count:"0",
         img:"/images/speech.png",
@@ -46,7 +46,7 @@ const ProjectData=[
         Year:"2024",
         SoftUsed1:"VS-Code IDE",
         ProjDespriction:"Developed a Server based Python voice-controlled Wikipedia search app with speech recognition, text-to speech. Implemented multithreading for simultaneous search and audio playback,along with real-time status updates.Designed with using HTML and CSS",
-        SoftUsed2:"Python and Flask ",
+        SoftUsed2:"Python and Flask",
         link:"https://github.com/Dineshbabu1022001/Wikipedia_based_voice_Search",
     }
 
