@@ -78,7 +78,7 @@ export const Home = () => {
             {" "}
             thoughts, reflections &amp; everything&nbsp;
           </span>
-          in between. Have a good read!
+          in between.
         </p>
       </div>
       <div className="social-button">
