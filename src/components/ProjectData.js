@@ -7,7 +7,7 @@ const ProjectData=[
         SoftUsed1:"Mern Stack",
         ProjDespriction:"Built an Amazon clone with the MERN stack, Redux for state management, and Bootstrap for responsive design.",
         SoftUsed2:"VS Code IDE",
-        link:"https://github.com/Dineshbabu1022001/mini-ecommerce",
+        link:"https://github.com/Dineshbabu1022001/Mini-Ecommerce",
     },
     {   
         count:"0",
