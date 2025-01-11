@@ -192,15 +192,15 @@ html, body {
 }
 
 .home-button {
-  display: flex;
   position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 10;
+  display: flex;
   flex-direction: column;
-  padding: 20px;
-  top: 31%;
-  right: 10%;
-  border-radius: 10PX;
+  gap: 15px;
 }
-
 .home-button button {
   border-radius: 10PX;
   width: 250px;
@@ -215,6 +215,7 @@ html, body {
   height: 50px;
   font-size: 15px;
   font-weight: 300;
+  cursor: pointer;
   box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.5),
   10px 10px 15px rgba(126, 124, 124, 0.12); 
 }
