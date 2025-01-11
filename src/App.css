@@ -205,14 +205,14 @@ html, body {
   border-radius: 10PX;
   width: 250px;
   padding: 10px;
-  margin: 20px;
+  margin: 15px;
   display: flex;
   flex-direction: row;
   border: none;
   justify-content: space-around;
   align-items: center;
   font-family: "poppins", sans-serif;
-  height: 50px;
+  height: 35px;
   font-size: 15px;
   font-weight: 300;
   cursor: pointer;
