@@ -49,24 +49,38 @@ html, body {
 
 .nav-buttons {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
   z-index: 100;
+  padding: 1rem;
 }
 
-.nav-butt {
+/* .nav-butt {
   padding: 10px 15px;
   border: none;
   background: none;
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
+} */
+.nav-butt {
+  background-color: #ffffff;
+  color: #150aea;
+  border: 2px solid #6a11cb;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .nav-butt:hover {
-  background-color: #555;
-  transform: scale(1.1);
+  background-color: #6a11cb;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 
 @media (max-width: 640px) {
   .nav-buttons {
