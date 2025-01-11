@@ -10,7 +10,7 @@ const ProjectData=[
         link:"https://github.com/Dineshbabu1022001/Mini-Ecommerce",
     },
     {   
-        count:"0",
+        count:"1",
         img:"/images/attendance.png",
         projectHeading:"Student Attendance Automated system",
         Year:"2024",
@@ -20,7 +20,7 @@ const ProjectData=[
         link:"https://github.com/Dineshbabu1022001/Student-Attendance-Automated-System-Using-JSP-AND-MYSQL",
     },
     {
-        count:"1",
+        count:"0",
         img:"/images/Dinesh-portfolio.png",
         projectHeading:"Personal Portfolio",
         Year:"2024",
@@ -30,14 +30,24 @@ const ProjectData=[
         link:"https://github.com/Dineshbabu1022001/Dinesh-Babu-Portfolio-Website",
     },
     {
-        count:"0",
+        count:"1",
         img:"/images/voice.png",
-        projectHeading:"Speech Recognition Using Python ",
+        projectHeading:"Deskstop  Based Voice Recognition Using Python",
         Year:"2023",
         SoftUsed1:"VS-Code IDE",
         ProjDespriction:"Developed a Python-based voice-controlled Wikipedia search app with speech recognition, text-to speech, and a Tkinter GUI. Implemented multithreading for simultaneous search and audio playback,along with real-time status updates. Integrated error handling for a seamless user experience.",
-        SoftUsed2:"Python and ML ",
+        SoftUsed2:"Python and ML",
         link:"https://github.com/Dineshbabu1022001/Speech_Recognition-Using-Python",
+    }
+     {
+        count:"0",
+        img:"/images/speech.png",
+        projectHeading:"Server Based Speech Recognition using Flask and Python",
+        Year:"2024",
+        SoftUsed1:"VS-Code IDE",
+        ProjDespriction:"Developed a Server based Python voice-controlled Wikipedia search app with speech recognition, text-to speech. Implemented multithreading for simultaneous search and audio playback,along with real-time status updates.Designed with using HTML and CSS",
+        SoftUsed2:"Python and Flask ",
+        link:"https://github.com/Dineshbabu1022001/Wikipedia_based_voice_Search",
     }
 
     
