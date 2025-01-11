@@ -192,15 +192,15 @@ html, body {
 }
 
 .home-button {
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  z-index: 10;
   display: flex;
+  position: absolute;
   flex-direction: column;
-  gap: 15px;
+  padding: 20px;
+  top: 31%;
+  right: 10%;
+  border-radius: 10PX;
 }
+
 .home-button button {
   border-radius: 10PX;
   width: 250px;
