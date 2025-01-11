@@ -12,14 +12,17 @@ export const SmallIntro = () => {
   }, [isDesktop]);
 
   return (
-    <div data-aos={isDesktop ? "fade-right" : undefined}
+    <div 
+      data-aos={isDesktop ? "fade-right" : undefined}
       data-aos-anchor-placement="top-center"
       data-aos-duration="1500"
       className='smallintro t'>
+      
+      <h2 className="heading" style={{ margin:"0px 10px 0px 10px" ,color: "#74C0FC" ,paddingTop:"0"}}>Career Objective</h2>
       <div className='small'>
-        To Empower my technical proficiency and problem-solving skills, acquired through my MCA degree, to
-        contribute effectively to a dynamic Information Technology environment.I am ultimately aiming for a
-       leadership role in the field of Information Technology. 
+        To empower my technical proficiency and problem-solving skills, acquired through my MCA degree, to 
+        contribute effectively to a dynamic Information Technology environment. I am ultimately aiming for a 
+        leadership role in the field of Information Technology. 
       </div>
     </div>
   );
