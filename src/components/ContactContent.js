@@ -32,6 +32,7 @@ export const ContactContent = () => {
 
   return (
     <div className="contact-content">
+     <h2 style={{ margin:"5px" ,color: "#74C0FC"}}>Contact Me</h2>
       <form ref={form} style={{ width: '80%', margin: '0 auto' }} onSubmit={sendEmail}>
         <input
           type="text"
