@@ -35,7 +35,7 @@ export const Contact = () => {
           <div className='column'>
             <p style={{ textAlign: 'center' }}>🤝 stay connected</p>
             <div className='social-links'>
-              <a href='https://www.linkedin.com/in/dinesh-babu-n-g-2bb529268/'>LinkedIn</a> |
+              <a href='https://www.linkedin.com/in/dinesh-babu-n-g-2bb529268/'>LinkedIn</a> ||
               <a href='https://github.com/Dineshbabu1022001'>GitHub</a> ||
               <a href='https://drive.google.com/file/d/1oVu8faZ4KFOVE_FqzBQfRAwnzTf8T0nA/view?usp=sharing'>
                 Resume
