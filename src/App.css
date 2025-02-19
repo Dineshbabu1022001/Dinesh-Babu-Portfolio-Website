@@ -62,7 +62,7 @@ html, body {
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
 } */
-.nav-butt {
+/* .nav-butt {
   background-color: #ffffff;
   color: #150aea;
   border: 2px solid #6a11cb;
@@ -73,9 +73,9 @@ html, body {
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.3s ease;
-}
+} */
 
-.nav-butt:hover {
+/* .nav-butt:hover {
   background-color: #6a11cb;
   color: #ffffff;
   transform: translateY(-2px);
@@ -135,6 +135,128 @@ html, body {
     display: flex !important;
     max-height: none;
     opacity: 1;
+  }
+} */
+.nav-butt {
+  background-color: #ffffff;
+  color: #150aea;
+  border: 2px solid #6a11cb;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00eaff; /* Neon Blue */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 234, 255, 0.8);
+}
+
+/* 🔹 Navigation Buttons */
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🔹 Modern Button Styling */
+.nav-butt {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #00eaff;
+  border-radius: 25px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-butt::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: radial-gradient(circle, rgba(0, 234, 255, 0.5), transparent);
+  transition: 0.5s;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.nav-butt:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.nav-butt:hover {
+  color: #000;
+  background: #00eaff;
+  box-shadow: 0 0 20px rgba(0, 234, 255, 0.6);
+}
+
+/* 🔹 Mobile Toggle Button */
+.nav-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #00eaff;
+}
+
+/* 🔹 Responsive Navbar for Mobile */
+@media (max-width: 768px) {
+  .nav-buttons {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  }
+
+  .nav-buttons.show {
+    max-height: 300px;
+    opacity: 1;
+  }
+
+  .nav-butt {
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+/* 🔹 Desktop View */
+@media (min-width: 769px) {
+  .nav-buttons {
+    display: flex !important;
+    max-height: none;
+    opacity: 1;
+  }
+
+  .nav-toggle {
+    display: none;
   }
 }
 
