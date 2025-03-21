@@ -1178,6 +1178,18 @@ button{
 .Heading-chatBot{
   text-align: center;
 }
+.message.bot {
+  background-color: #ddd;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin: 5px 0;
+  width: fit-content;
+  max-width: 80%;
+  font-style: italic;
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
 
 
 
