@@ -71,7 +71,7 @@ const Chatbot = () => {
                             {msg.text}
                         </div>
                     ))}
-                    {isTyping && <div className="message bot">Wait{dots}</div>} {/* Typing Indicator */}
+                    {isTyping && <div className="message bot">{dots}</div>} {/* Typing Indicator */}
                     <div ref={messagesEndRef} />
                 </div>
                 <div className="chatbot-input-container">
