@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ContactContent } from './ContactContent';
+import Chatbot from './Chatbot';
 
 export const Contact = () => {
   const [dots, setDots] = useState('');
@@ -24,6 +25,7 @@ export const Contact = () => {
             you? ✨ If so, do get in touch!
           </p>
           <ContactContent />
+          <Chatbot/>
         </div>
 
         <div className='end-page'>
